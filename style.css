@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* Navigination */
+.navigation nav{
+    padding: 20px ;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #adb293;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    /* position: fixed; */
+    z-index: 10;
+
+}
+
+.navigation nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation nav .logo img{
+    width: 80px;
+    margin-right: 15px;
+}
+
+.navigation nav .logo h1{
+   font-size: 2rem;
+}
+
+.navigation nav ul{
+    display: flex;
+    margin-right: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navigation nav ul li{
+    list-style: none;
+    margin: 0 30px;
+}
+
+.navigation nav ul li a{
+    font-size: 1.2rem;
+    color: #230968;
+    transition: 0.3s ease;
+}
+
+.navigation nav ul li a:hover{
+    color: #d11616;
+}
+
+.welcome{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(monument.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    /* margin-top: ; */
+   
+}
+.welcome id{
+color:#230968;
+margin-top: 200px;
+
+}
+.container{
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+    font-size: 40px;
+    color: #adb293;
+}
+
+.container h1{
+    margin-top:6px;
+    color: black;
+}
+.container h2{
+    margin-top:6px;
+    color: #fff;
+    font-size: 3rem;
+}
+.container p{
+    margin-top:10px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.welcome .contact {
+    background-color: #fff;
+    text-align: center;
+
+}
+
+
+.feature{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.feature .coaching{
+    text-align: center;
+}
+
+.feature .coaching h1{
+    font-size: 3rem;
+}
+
+.feature .coaching p{
+    font-size: 1.5rem;
+}
+
+.feature .fea-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.feature .fea-box .fea{
+    background-color: beige;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+
+.feature .fea-box .fea h2{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #270a62;
+}
+
+.feature .fea-box .fea p{
+    font-size: 1.2rem;
+}
+
+.ad-box{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.ad-box .ad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ad-box .ad img{
+    width: 40vw;
+}
+
+
+/* Courses */
+.course-box h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #20094d;
+}
+.course-box p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    padding: 0vw 8vw 0 8vw;
+    text-align: center;
+
+}
+
+.courses .course{
+    padding: 20px;
+    background-color: #adb293;
+
+}
+
+.courses .course img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.courses .course h1{
+    font-size: 2rem;
+}
+
+/* contact */
+
+#contact-box{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(pexels-dina-nasyrova-3695403.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    padding: 0vw 8vw;
+    display: flex;
+
+
+}
+
+
+.myform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+#form{
+    width: 30vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+#form h1{
+    font-size: 3rem;
+    color: #d11616;
+    margin-right: 50px;
+}
+
+#form input, textarea, button{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#form input, textarea::placeholder{
+    font-size: 1.5rem;
+}
+
+#form .submit{
+    background-color: rgb(143, 211, 17);
+    font-size: 1.5rem;
+}
+
+#form .submit:hover{
+    background-color: rgb(171, 235, 54);
+    font-size: 1.5rem;
+}
+
+.map{
+    margin-top: 50px;
+    float: right;
+}
